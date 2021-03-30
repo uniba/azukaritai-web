@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <title>Azukaritai</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div>
+    <section>
       <h1>Azukaritai</h1>
-    </div>
+    </section>
     <section>
       <h2>Who We Are</h2>
       <div>
@@ -26,7 +27,7 @@
     </section>
     <section>
       <h2>Our Services</h2>
-      <div>
+      <div class="service">
         <h3>テスト・QAサポート</h3>
         <div>
           <p>
@@ -39,7 +40,7 @@
           </p>
         </div>
       </div>
-      <div>
+      <div class="service">
         <h3>インフラ監視・障害対応</h3>
         <div>
           <p>
@@ -51,14 +52,26 @@
     </section>
     <section>
       <h2>Members</h2>
-      <ul>
-        <li>Jun</li>
-        <li>Caz</li>
+      <ul class="members">
+        <li>
+          <img class="profile" />
+          <br />
+          <span>Jun</span>
+        </li>
+        <li>
+          <img class="profile" />
+          <br />
+          <span>Caz</span>
+        </li>
       </ul>
-      <div>Azukaritaiメンバー募集中!!</div>
+      <div class="offering">Azukaritaiメンバー募集中!!</div>
     </section>
     <section>
       <button>お問い合わせ</button>
+
+      <p class="contact">
+        お問い合わせは <a href="mailto:azukaritai@uniba.jp">azukaritai@uniba.jp</a> まで
+      </p>
     </section>
     <footer>
       &copy; Azukaritai

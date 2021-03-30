@@ -1,0 +1,92 @@
+body {
+  background: #515bf4;
+  color: #a2a3a2;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", HelveticaNeue, YuGothic, "Yu Gothic Medium", "Yu Gothic", Verdana, Meiryo, sans-serif;
+}
+
+h1 {
+  margin: 150px auto;
+  text-align: center;
+  font-size: 120px;
+  font-weight: normal;
+}
+section {
+  width: 800px;
+  margin: 0 auto 120px;
+}
+
+section h2 {
+  text-align: center;
+  font-size: 200%;
+  font-weight: normal;
+  margin-bottom: 1.5em;
+}
+
+section p {
+  font-size: 1.2em;
+  line-height: 1.8em;
+}
+
+.service {
+  margin-bottom: 40px;
+  padding: 30px;
+  border: 2px solid #a2a3a2;
+}
+
+.offering {
+  font-size: 180%;
+  text-align: center;  
+}
+
+button {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 2px solid #a2a3a2;
+  text-align: center;
+  font-weight: bold;
+  background: inherit;
+  color: #a2a3a2;
+  font-size: 200%;
+  text-align: cneter;
+}
+
+.members {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 120px;
+}
+
+ul li {
+  width: 140px;
+  display: inline-block;
+}
+
+ul li span {
+  text-align: center;
+}
+.profile {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #a2a3a2;
+  border-radius: 50%;
+  background: #999999;
+}
+
+.contact {
+  text-align: center;
+}
+
+a {
+  color: #a2a3a2;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 100px;
+}
