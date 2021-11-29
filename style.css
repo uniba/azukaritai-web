@@ -54,6 +54,12 @@ header{
     color: #666;
 }
 
+.site-title {
+    width: 200px;
+    line-height: 1px;
+    padding: 10px 0;
+  }
+
 /*グローバルナビゲーション*/
 nav.header{
     grid-row: head;
