@@ -190,7 +190,7 @@ nav.footer{
 /* member の設定 */
 ul.member{
     list-style-type: none;
-    padding: 0;
+    padding: 30px;
 }
 
 img.member{
