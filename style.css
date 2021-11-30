@@ -85,6 +85,8 @@ nav.header ul{
     grid-auto-flow: column;
     grid-column-gap: 20px;
     column-gap: 20px;
+    position:relative;
+	height: 0.5px;
 }
 
 nav.header a{
