@@ -116,6 +116,7 @@ figure.main img{
 article.center{
     grid-row: recent;
     text-align: center;
+    padding-top: 40px;
 }
 
 /*不具合の原因↓*/
