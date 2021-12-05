@@ -107,7 +107,7 @@ figure{
 }
 
 figure.main img{
-    height: 547px;
+    padding-top: 40px;
     object-fit: cover;
     vertical-align: bottom;
 }
