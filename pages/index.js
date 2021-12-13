@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function Index() {
   return (
@@ -22,7 +23,7 @@ export default function Index() {
             私たち Azukaritai は、内製のエンジニアチームのように、御社のビジネスのことを一緒に考えながら成長を目指す、エンジニアチームを、ニーズに合わせて作り上げ提供するサービスを提供します。
           </p>
           <h2>
-            <a href="aboutus.html">Read more</a>
+            <Link href="/about">Read more</Link>
           </h2>
         </article>
         
@@ -35,7 +36,7 @@ export default function Index() {
             プロダクト・サービスの継続的な運用の中で得られる気づきを踏まえて、プロダクトを積極的に変化させていくことがオンラインビジネスの成功には不可欠です。Azukaritai では、SCRUM開発チーム、自動化されたE2EテストをベースにしたQA、モニタリングと徹底した自動化をベースにしたSREと中心に、ビジネスの継続的な成長を実現するエンジニアリングチームを丸ごと提供します。
           </p>
           <h2>
-            <a href="service.html">Read more</a>
+            <Link href="/service">Read more</Link>
           </h2>
         </article>
         
@@ -43,7 +44,7 @@ export default function Index() {
           <h3>CONTACT</h3>
           <p>お気軽にお問い合わせ下さい。</p>
           <h2>
-            <a href="contact.html">Read more</a>
+            <Link href="https://form.asana.com?k=ggLvwV5Jy4v6e9WhagMCjg&d=10976309821910" target="_blank" rel="noreferrer">Read more</Link>
           </h2>
         </article>
       </section>

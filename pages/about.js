@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function About() {
   return (
@@ -58,7 +59,7 @@ export default function About() {
           </ul>
           <ul className="member">
             <li><h3>Azukaritaiは新たなメンバーを募集しています。</h3></li>
-            <h2><a href="careers.html">採用情報を見る</a></h2>
+            <h2><Link href="/careers">採用情報を見る</Link></h2>
           </ul>
         </nav>
       </article>
