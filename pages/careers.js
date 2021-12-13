@@ -67,7 +67,7 @@ export default function Careers() {
       </article>
 
       <article className="center">
-        <h2><Link href="https://form.asana.com?k=ggLvwV5Jy4v6e9WhagMCjg&d=10976309821910" target="_blank" rel="noreferrer">CONTACT</Link></h2>
+        {/* <h2><Link href="https://form.asana.com?k=ggLvwV5Jy4v6e9WhagMCjg&d=10976309821910" target="_blank" rel="noreferrer">CONTACT</Link></h2> */}
       </article>
     </section>
   )

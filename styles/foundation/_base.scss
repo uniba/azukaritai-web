@@ -1,0 +1,61 @@
+/* base
+--------------------------- */
+@use "./system" as s;
+
+html {
+  line-height: 1.6;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: s.$c-base;
+  background-color: s.$c-body;
+  font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+
+}
+body {
+	overflow-x: hidden;
+}
+
+img,
+video,
+object {
+  max-width: 100%;
+  height: auto;
+  border: none;
+  filter: brightness(90%);
+}
+
+a {
+  color: s.$c-base;
+  text-decoration: none;
+  position: relative;
+  &::after {
+    position: absolute;
+    bottom: -3px;
+    left: 50%;
+    content: "";
+    width: 0;
+    height: 1px;
+    background-color: s.$c-base;
+    transition: 0.2s;
+    transform: translateX(-50%);
+  }
+  &:hover {
+    text-decoration: none;
+    &:after {
+      width: 100%;
+    }
+  }
+}
+a:hover img {
+  text-decoration: none;
+  opacity: 0.8;
+  transition: s.$transition-base;
+}
+a,
+label,
+input {
+  transition: s.$transition-base;
+}

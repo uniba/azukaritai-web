@@ -1,0 +1,9 @@
+@use "./../../foundation/system" as s;
+
+.c-site-logo {
+  text-align: center;
+  img {
+    display: inline-block;
+    width: 27%;
+  }
+}

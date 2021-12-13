@@ -1,0 +1,38 @@
+/* c-section
+--------------------------- */
+@use "./../../foundation/system" as s;
+
+.p-section {
+  padding: 0 0 140px;
+  text-align: center;
+  word-break: keep-all;
+  &__firstview{
+    padding: 0 9%;
+  }
+  h2 {
+    padding: 58px 0 0;
+    font-size: s.rem(40);
+  }
+  h3 {
+    font-size: s.rem(38);
+    padding: 0 9% 57px;
+  }
+  p {
+    font-size: s.rem(20);
+    padding: 38px 9% 0;
+  }
+  &__graph {
+    padding: 0 20%;
+  }
+  &--contact {
+    padding: 150px 0 330px;
+  }
+  &__load-link {
+    padding-top: 40px;
+    a {
+      font-size: s.rem(20);
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  }
+}

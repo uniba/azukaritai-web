@@ -1,0 +1,21 @@
+@use "./../../foundation/system" as s;
+
+nav.c-global-nav {
+  padding: 37px 9% 68px;
+  ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+    font-size: s.rem(18);
+    font-weight: bold;
+    &:hover {
+      color: rgb(141, 141, 141);
+    }
+  }
+}
