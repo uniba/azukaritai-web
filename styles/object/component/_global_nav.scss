@@ -5,15 +5,24 @@ nav.c-global-nav {
   ul {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
     list-style-type: none;
     text-align: center;
+    @include s.breakpoint(tablet) {
+      justify-content: flex-start;
+      margin-right: 30px;
+    }
   }
   a {
     text-decoration: none;
-    font-size: s.rem(18);
+    @include s.font-20;
     font-weight: bold;
+    @include s.breakpoint(tablet) {
+      margin-right: 30px;
+      line-height: 2;
+    }
     &:hover {
       color: rgb(141, 141, 141);
     }

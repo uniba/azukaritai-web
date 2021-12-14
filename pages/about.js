@@ -3,66 +3,75 @@ import Link from 'next/link'
 
 export default function About() {
   return (
-    <section>
+    <>
       <Head>
         <title>ABOUT US - Azukaritai</title>
         <meta name="viewport" content="width=device-width" />
         <link rel="icon" href="/img/azukaritai_favicon.png" />
       </Head>
 
-      <article className="center">
-        <h3>ABOUT US</h3>
-        <h2>あなたのオンラインビジネスに伴走するエンジニアチーム、<br />準備できています。</h2>
-        <p className="message">
-          新しいビジネスやサービスの立ち上げ、立ち上げた後の運用において成長を加速させていく上で、
-          優秀なエンジニアチームは必要不可欠です。
-          私たち Azukaritai は、内製のエンジニアチームのように、御社のビジネスのことを一緒に考えながら成長を目指す、エンジニアチームを、ニーズに合わせて作り上げ提供するサービスを提供します。
-        </p>
-      </article>
-
-      <article className="center">
-        <h3>チームが重視する行動・価値観</h3>
-        <ul className="values">
-          <li>徹底した自動化</li>
-          <li>計測による定量評価</li>
-          <li>長期的な視点</li>
-          <li>属人化の排除</li>
-          <li>コードによる解決</li>
-          <li>レビュープロセスによる学習</li>
-          <li>チームとしての学習</li>
-          <li>多様なバックグラウンドを持ったメンバーによる協業</li>
-        </ul>
-      </article>
-
-      <article className="center"> 
-        <h3>チームメンバー</h3>
-        <nav>
-          <ul className="member">
-            <li><img src="img/jun.png" className="member" /></li>
-            <li><h4>小松 純 Jun Komatsu</h4></li>
-            <p>さまざまなサービスの成長に貢献していけるよう、チームを盛り上げていきたいと思います。<br />よろしくお願いします。</p>
+      <section className="p-about">
+        <div className="p-section">
+          <h3 className="p-section__title">ABOUT US</h3>
+          <h2 className="p-section__main-heading">あなたのオンラインビジネスに伴走するエンジニアチーム、<br />準備できています。</h2>
+          <p className="p-section__explanation">
+            新しいビジネスやサービスの立ち上げ、立ち上げた後の運用において成長を加速させていく上で、
+            優秀なエンジニアチームは必要不可欠です。
+            私たち Azukaritai は、内製のエンジニアチームのように、御社のビジネスのことを一緒に考えながら成長を目指す、エンジニアチームを、ニーズに合わせて作り上げ提供するサービスを提供します。
+          </p>
+        </div>
+        <div className="p-section">
+          <h4 className="p-section__sub">チームが重視する行動・価値観</h4>
+          <ul className="p-section__sub-lists">
+            <li>徹底した自動化</li>
+            <li>計測による定量評価</li>
+            <li>長期的な視点</li>
+            <li>属人化の排除</li>
+            <li>コードによる解決</li>
+            <li>レビュープロセスによる学習</li>
+            <li>チームとしての学習</li>
+            <li>多様なバックグラウンドを持ったメンバーによる協業</li>
           </ul>
-          <ul className="member">
-            <li><img src="img/keiichi.png" className="member" /></li>
-            <li><h4>谷藤 圭一 Keiichi Tanifuji</h4></li>
-            <p>「半歩先の理解」をモットーに、QA領域のサポートを中心に活動していきます。</p>
-          </ul>
-          <ul className="member">
-            <li><img src="img/satoshi.png" className="member" /></li>
-            <li><h4>望月 聡 Satoshi Mochizuki</h4></li>
-            <p>お客様と連携して常にアップデートし続けたいです。</p>
-          </ul>
-          <ul className="member">
-            <li><img src="img/caz.jpg" className="member" /></li>
-            <li><h4>村穂 紀成 Cazunari Muraho</h4></li>
-            <p>人間のフレキシビリティを支える堅牢なプロダクト作りに貢献したいです。</p>
-          </ul>
-          <ul className="member">
-            <li><h3>Azukaritaiは新たなメンバーを募集しています。</h3></li>
-            <h2><Link href="/careers">採用情報を見る</Link></h2>
-          </ul>
-        </nav>
-      </article>
-    </section>
+        </div>
+        <div className="p-about__member">
+          <h4 className="p-about__mb-title">チームメンバー</h4>
+          <div className="p-about__mb-container">
+            <div className="p-about__mb-image"><img src="img/az_jun.png" /></div>
+            <p className="p-about__mb-name">小松 純 /<span> Jun Komatsu</span></p>
+            <p className="p-about__mb-intro">さまざまなサービスの成長に貢献していけるよう、チームを盛り上げていきたいと思います。よろしくお願いします。</p>
+          </div>
+          <div className="p-about__mb-container">
+            <div className="p-about__mb-image"><img src="img/az_keiichi.png" /></div>
+            <p className="p-about__mb-name">谷藤 圭一 /<span> Keiichi Tanifuji</span></p>
+            <p className="p-about__mb-intro">「半歩先の理解」をモットーに、QA領域のサポートを中心に活動していきます。</p>
+          </div>
+          <div className="p-about__mb-container">
+            <div className="p-about__mb-image"><img src="img/az_satoshi.png" /></div>
+            <p className="p-about__mb-name">望月 聡 /<span> Satoshi Mochizuki</span></p>
+            <p className="p-about__mb-intro">お客様と連携して常にアップデートし続けたいです。</p>
+          </div>
+          <div className="p-about__mb-container">
+            <div className="p-about__mb-image"><img src="img/az_caz.png" /></div>
+            <p className="p-about__mb-name">村穂 紀成 /<span> Cazunari Muraho</span></p>
+            <p className="p-about__mb-intro">人間のフレキシビリティを支える堅牢なプロダクト作りに貢献したいです。</p>
+          </div>
+        </div>
+        <div className="p-about__careers-info">
+          <div className="p-about__careers-image">
+            <img src="img/daichi.jpg"/>
+          </div>
+          <h4 className="p-about__careers-title">
+            Azukaritaiは新たなメンバーを募集しています。
+          </h4>
+          <div className="p-about__careers-link">
+            <Link href="/careers">
+              <a>
+                採用情報を見る
+              </a>
+            </Link>
+          </div>
+        </div>
+      </section>
+    </>
   )
 }

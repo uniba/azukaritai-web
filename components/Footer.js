@@ -1,15 +1,15 @@
 import Link from 'next/link'
+import Navbar from '../components/Navbar'
 
-function Footer() {
+export default function Footer() {
   return (
     <footer>
+      <Navbar />
       <Link href="https://uniba.jp/" target="_blank">
         <div className="c-footer-logo" >
           <img className="footer" src="/img/footer.png" />
         </div>
       </Link>
     </footer>
-  );
+  )
 }
-
-export default Footer;

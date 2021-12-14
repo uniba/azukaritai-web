@@ -1,5 +1,28 @@
 @use "./../../foundation/system" as s;
 
 .p-careers {
-  
+  &__container {
+    padding: 63px 0;
+    margin: 0 auto;
+    border-top: 1px solid s.$c-base;
+  }
+  &__container:last-of-type {
+    border-bottom: 1px solid s.$c-base;
+  }
+  &__position {
+    margin-bottom: 30px;
+    @include s.font-27;;
+    font-weight: normal;
+  }
+  p {
+    @include s.font-23;;
+  }
+  ul {
+    margin-bottom: 30px;
+    padding-inline-start: 0px;
+    list-style-type: none;
+    li {
+      @include s.font-23;;
+    }
+  }
 }

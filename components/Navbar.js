@@ -5,21 +5,21 @@ function Navbar() {
     <nav className="c-global-nav">
       <ul>
         <li>
-          <Link href="/pages/about.js">
+          <Link href="/about">
             <a>
               ABOUT US
             </a>
           </Link>
         </li>
         <li>
-          <Link href="/pages/service.js">
+          <Link href="/service">
             <a>
               SERVICE
             </a>
           </Link>
         </li>
         <li>
-          <Link href="/pages/careers.js">
+          <Link href="/careers">
             <a>
               CAREERS
             </a>

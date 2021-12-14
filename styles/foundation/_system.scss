@@ -1,27 +1,11 @@
 /* system
 --------------------------- */
 
-// color system
-// ---------------------
-$c-base: #000;
-$c-base-sub: #222;
-$c-base-dark: #000; // footer only
-$c-base-right: #999;
-$c-body: #fff;
-$c-accent: #ca6060;
-
-$transition-base: all 0.4s;
-
-$baseFontSize: 16;
-  @function rem($pixels) {
-    @return $pixels / $baseFontSize * 1rem;
-  }
-
 // responsive system
 // ---------------------
 @mixin breakpoint($point) {
   @if $point == tablet {
-    @media (min-width: 640px) {
+    @media (max-width: 640px) {
       @content;
     }
   }
@@ -35,11 +19,58 @@ $baseFontSize: 16;
 .pc-only {
   display: none;
 }
-@include breakpoint(tablet) {
-}
 @include breakpoint(pc) {
   .pc-only {
     display: inline-block;
   }
 }
+
+// color system
+// ---------------------
+$c-base: #000;
+$c-base-gray: #E6E6E6;
+$c-base-right: #4D4D4D;
+$c-body: #fff;
+
+
+// font-size system
+// ---------------------
+@mixin font-18 {
+  font-size: 0.9rem;
+  @include breakpoint(tablet) {
+    font-size: calc(18px + ((1vw - 6.4px)*3.571));
+  }
+}
+@mixin font-20 {
+  font-size: 1rem;
+  @include breakpoint(tablet) {
+    font-size: calc(20px + ((1vw - 6.4px)*3.571));
+  }
+}
+@mixin font-23 {
+  font-size: 1.15rem;
+  @include breakpoint(tablet) {
+    font-size: calc(23px + ((1vw - 6.4px)*3.571));
+  }
+}
+@mixin font-27 {
+  font-size: 1.35rem;
+  @include breakpoint(tablet) {
+    font-size: calc(27px + ((1vw - 6.4px)*3.571));
+  }
+}
+@mixin font-38 {
+  font-size: 1.9rem;
+  @include breakpoint(tablet) {
+    font-size: calc(38px + ((1vw - 6.4px)*3.571));
+  }
+}
+@mixin font-40 {
+  font-size: 2rem;
+  @include breakpoint(tablet) {
+    font-size: calc(40px + ((1vw - 6.4px)*3.571));
+  }
+}
+
+$transition-base: all 0.4s;
 

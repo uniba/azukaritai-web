@@ -7,8 +7,7 @@
 /*--------------------------------------*
  * layout
  *--------------------------------------*/
-@use "./layout/header";
-@use "./layout/footer";
+@use "./layout/wrap";
 
 /*--------------------------------------*
  * object
@@ -24,10 +23,10 @@
  * project
  -------------------*/
 @use "./object/project/section";
-@use "./object/project/home";
+@use "./object/project/about";
 @use "./object/project/service";
 @use "./object/project/careers";
-@use "./object/project/contact";
+@use "./object/project/contact-info";
 
 /*-------------------
  * object

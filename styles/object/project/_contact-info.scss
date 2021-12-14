@@ -1,0 +1,21 @@
+@use "./../../foundation/system" as s;
+
+.p-contact-info {
+  padding: 150px 0 200px;
+  text-align: center;
+  &__title {
+    @include s.font-38;
+    padding: 0 9% 57px;
+  }
+  &__text {
+    @include s.font-20;
+  }
+  &__load-link {
+    padding-top: 40px;
+    a {
+      @include s.font-20;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  }
+}

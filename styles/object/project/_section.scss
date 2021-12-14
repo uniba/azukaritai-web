@@ -5,34 +5,60 @@
 .p-section {
   padding: 0 0 140px;
   text-align: center;
-  word-break: keep-all;
+  &:last-of-type {
+    padding-bottom: 0px;
+  }
   &__firstview{
-    padding: 0 9%;
+    padding: 0 0;
   }
-  h2 {
-    padding: 58px 0 0;
-    font-size: s.rem(40);
+  &__main-heading {
+    padding: 58px 0 38px;
+    font-size: 40px;
+    @include s.font-40;
   }
-  h3 {
-    font-size: s.rem(38);
+  &__explanation {
+    padding: 0 0 0;
+    @include s.font-20;
+  }
+  &__title {
     padding: 0 9% 57px;
+    @include s.font-38;
   }
-  p {
-    font-size: s.rem(20);
-    padding: 38px 9% 0;
+  &__text {
+    padding: 0 0 80px;
+    @include s.font-20;
+  }
+  &__sub {
+    width: 82%;
+    padding-bottom: 26px;
+    margin: 0 auto 52px;
+    border-bottom: 1px solid s.$c-base;
+    font-weight: normal;
+    line-height: 1;
+    @include s.font-40;
+  }
+  &__sub-lists {
+    padding-top: 15px;
+    list-style-type: none;
+    li {
+      line-height: 1.6;
+      @include s.font-20;
+    }
+  }
+  &__sub-container {
+    .p-section__text:last-of-type {
+      padding-bottom: 0px;
+    }
   }
   &__graph {
-    padding: 0 20%;
-  }
-  &--contact {
-    padding: 150px 0 330px;
+    padding: 0 15% 64px;
   }
   &__load-link {
     padding-top: 40px;
     a {
-      font-size: s.rem(20);
       font-weight: bold;
       text-decoration: underline;
+      @include s.font-20;
     }
   }
 }
