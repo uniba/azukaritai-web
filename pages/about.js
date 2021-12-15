@@ -58,7 +58,7 @@ export default function About() {
         </div>
         <div className="p-about__careers-info">
           <div className="p-about__careers-image">
-            <img src="img/daichi.jpg"/>
+            <img src="img/az_minirobot.png"/>
           </div>
           <h4 className="p-about__careers-title">
             Azukaritaiは新たなメンバーを募集しています。

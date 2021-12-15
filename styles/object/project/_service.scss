@@ -3,10 +3,31 @@
 .p-service {
   &__icon-one {
     text-align: center;
-    padding-bottom: 130px;
+    // padding-bottom: 130px;
+    padding-bottom: calc(11.8% * var(--sp));
     img {
       display: inline-block;
       width: 200px;
+    }
+  }
+  &__sub-heding:nth-of-type(odd) {
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 62px;
+    background-position: top left;
+    background-image: url('../../../public/img/az_driver_2.png');
+    @include s.breakpoint(tablet) {
+      padding-left: 20%;
+    }
+  }
+  &__sub-heding:nth-of-type(even) {
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 62px;
+    background-position: top left;
+    background-image: url('../../../public/img/az_hummer.png');
+    @include s.breakpoint(tablet) {
+      padding-left: 20%;
     }
   }
 }

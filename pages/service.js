@@ -24,10 +24,10 @@ export default function Service() {
           </p>
         </div>
         <div className="p-service__icon-one">
-          <img src="img/daichi.jpg" alt="" />
+          <img src="img/az_toolbox.png" alt="" />
         </div>
         <div className="p-section p-section__sub-container">
-          <h3 className="p-section__sub">プロダクト継続保守開発</h3>
+          <h3 className="p-section__sub p-service__sub-heding">プロダクト継続保守開発</h3>
           <p className="p-section__text">
             アジャイル開発手法のひとつであるSCRUM開発の方法論を取り入れた開発チームを構成し、プロダクトの課題解決に取り組みます。
             一定の期間内に、定められた成果物を構築する開発プロジェクトと異なり、Azukaritaiではサービス・プロダクトを
@@ -37,7 +37,7 @@ export default function Service() {
             また、継続的に運用していく上では、技術的負債のコントロールも重要になります。
             日々のタスクの中で少しずつリファクタリングを進めるなど意識して取り組みます。
           </p>
-          <h3 className="p-section__sub">QA エンジニアリングサービス</h3>
+          <h3 className="p-section__sub p-service__sub-heding">QA エンジニアリングサービス</h3>
           <p className="p-section__text">
             ビジネスが成長すればするほど、システムの不具合や障害が発生した場合の影響は大きくなります。
             一方で、アジャイル開発の導入により、システムの改善や機能強化を行いながら頻繁に変更をリリースする場合には、
@@ -45,14 +45,14 @@ export default function Service() {
             mablなどの先進的な自動E2Eテストツールを活用し、リリースの度に繰り返し行うレグレッションテストを自動化することで、
             改善のスピードを損なわずに、十分なQAを行えるようにし、プロダクトの品質リスクへの解決策を提供します。
           </p>
-          <h3 className="p-section__sub">SRE サービス</h3>
+          <h3 className="p-section__sub p-service__sub-heding">SRE サービス</h3>
           <p className="p-section__text">
             システム運用環境においても、ビジネスが成長しトランザクションが増えたり、外的な要因が変化していく中で、
             安定してサービスを提供し続けるためには、継続的なモニタリングと、状況に合わせた運用の改善が重要になります。
             サービスの提供状態及びインフラの内部指標の両方を監視しつつ、異常の兆候を掴みながら、問題が発生した場合も
             可能な限りユーザーに影響が及ぶ前に対処します。
           </p>
-          <h3 className="p-section__sub">契約形態・委託料</h3>
+          <h3 className="p-section__sub p-service__sub-heding">契約形態・委託料</h3>
           <p className="p-section__text">
             Azukaritaiのエンジニアチームサービスは、3ヶ月単位で更新される準委任型業務委託契約を締結して提供させていただきます。<br />
             月額の委託料は、チームに参加するエンジニアの人数とそれぞれの稼働ボリュームで決まります。

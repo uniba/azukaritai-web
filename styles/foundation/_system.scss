@@ -5,14 +5,25 @@
 // ---------------------
 @mixin breakpoint($point) {
   @if $point == tablet {
-    @media (max-width: 640px) {
+    @media (max-width: 767px) {
       @content;
     }
   }
   @if $point == pc {
-    @media (min-width: 890px) {
+    @media (min-width: 768px) {
       @content;
     }
+  }
+}
+
+@include breakpoint(tablet) {
+  :root {
+    --sp: 3.16;
+  }
+}
+@include breakpoint(pc) {
+  :root {
+    --sp: 1.33;
   }
 }
 
