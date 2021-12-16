@@ -5,30 +5,40 @@
   &::before {
     content: "";
     position: absolute;
-    bottom: -140px;
-    left: -50px;
+    bottom: -10%;
+    left: -3%;
     width: 18%;
     padding-top: 22%;
     background-image: url('../../../public/img/az_robot.png');
     background-repeat: no-repeat;
     background-size: contain;
     z-index: 1;
+    @include s.breakpoint(tablet) {
+      bottom: -5%;
+      width: 35%;
+      padding-top: 40%;
+    }
   }
   &::after {
     content: "";
     position: absolute;
-    bottom: -140px;
-    left: -50px;
+    bottom: -10%;
+    left: -3%;
     width: 18%;
     padding-top: 22%;
     background-color: s.$c-body;
     background-repeat: no-repeat;
     background-size: contain;
     z-index: 0;
+    @include s.breakpoint(tablet) {
+      bottom: -5%;
+      width: 35%;
+      padding-top: 40%;
+    }
   }
   &__container {
     // padding: 63px 0;
-    padding: calc(5.7% * var(--sp)) 0;
+    padding: calc(5.7% * var(--sp)) 5%;
     margin: 0 auto;
     border-top: 1px solid s.$c-base;
   }
@@ -36,13 +46,13 @@
     border-bottom: 1px solid s.$c-base;
   }
   &__position {
-    // margin-bottom: 30px;
     margin-bottom: calc(2.7% * var(--sp));
-    @include s.font-27;;
-    font-weight: normal;
+    @include s.font-27;
+    font-weight: bold;
   }
-  p {
-    @include s.font-23;;
+  &__subtitle {
+    @include s.font-23;
+    font-weight: bold
   }
   ul {
     // margin-bottom: 30px;
@@ -50,7 +60,7 @@
     padding-inline-start: 0px;
     list-style-type: none;
     li {
-      @include s.font-23;;
+      @include s.font-23;
     }
   }
 }

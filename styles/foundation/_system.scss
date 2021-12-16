@@ -53,31 +53,43 @@ $c-body: #fff;
   }
 }
 @mixin font-20 {
-  font-size: 1rem;
+  font-size: 0.9rem;
   @include breakpoint(tablet) {
     font-size: calc(20px + ((1vw - 6.4px)*3.571));
   }
 }
 @mixin font-23 {
-  font-size: 1.15rem;
+  font-size: 1rem;
   @include breakpoint(tablet) {
     font-size: calc(23px + ((1vw - 6.4px)*3.571));
   }
 }
 @mixin font-27 {
-  font-size: 1.35rem;
+  font-size: 1.2rem;
+  @include breakpoint(tablet) {
+    font-size: calc(27px + ((1vw - 6.4px)*3.571));
+  }
+}
+@mixin font-28 {
+  font-size: 1.4rem;
   @include breakpoint(tablet) {
     font-size: calc(27px + ((1vw - 6.4px)*3.571));
   }
 }
 @mixin font-38 {
-  font-size: 1.9rem;
+  font-size: 1.5rem;
   @include breakpoint(tablet) {
     font-size: calc(38px + ((1vw - 6.4px)*3.571));
   }
 }
+@mixin font-39 {
+  font-size: 1.3rem;
+  @include breakpoint(tablet) {
+    font-size: calc(40px + ((1vw - 6.4px)*3.571));
+  }
+}
 @mixin font-40 {
-  font-size: 2rem;
+  font-size: 1.6rem;
   @include breakpoint(tablet) {
     font-size: calc(40px + ((1vw - 6.4px)*3.571));
   }

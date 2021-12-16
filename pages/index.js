@@ -30,9 +30,9 @@ export default function Home() {
         <div className="p-section">
           <h3 className="p-section__title">SERVICE</h3>
           <figure className="p-section__graph">
-            <img src="img/service.png" alt="" />
+            <img src="img/az_service.png" alt="" />
           </figure>
-          <p className="p-section__explanation">
+          <p className="p-section__explanation--two">
             プロダクト・サービスの継続的な運用の中で得られる気づきを踏まえて、プロダクトを積極的に変化させていくことがオンラインビジネスの成功には不可欠です。Azukaritai では、SCRUM開発チーム、自動化されたE2EテストをベースにしたQA、モニタリングと徹底した自動化をベースにしたSREと中心に、ビジネスの継続的な成長を実現するエンジニアリングチームを丸ごと提供します。
           </p>
           <div className="p-section__load-link">

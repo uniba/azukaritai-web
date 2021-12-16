@@ -1,11 +1,11 @@
 @use "./../../foundation/system" as s;
 
 .c-site-logo {
-  padding-top: calc(3.6% * var(--sp));
+  padding-top: calc(2.3% * var(--sp));
   text-align: center;
   img {
     display: inline-block;
-    width: 27%;
+    width: 18%;
     @include s.breakpoint(tablet) {
       width: 50%;
     }

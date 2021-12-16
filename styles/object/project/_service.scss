@@ -1,33 +1,46 @@
-  @use "./../../foundation/system" as s;
+@use "./../../foundation/system" as s;
+
+@mixin service-sub-heding {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: 62px;
+  background-position: top left;
+  @include s.breakpoint(tablet) {
+    padding-left: 20%;
+  }
+}
 
 .p-service {
   &__icon-one {
     text-align: center;
-    // padding-bottom: 130px;
-    padding-bottom: calc(11.8% * var(--sp));
+    padding-bottom: calc(8% * var(--sp));
     img {
       display: inline-block;
-      width: 200px;
+      width: 15%;
     }
   }
-  &__sub-heding:nth-of-type(odd) {
-    content: "";
-    background-repeat: no-repeat;
-    background-size: 62px;
-    background-position: top left;
-    background-image: url('../../../public/img/az_driver_2.png');
-    @include s.breakpoint(tablet) {
-      padding-left: 20%;
+  &__sub-heding {
+    img {
+      display: inline-block;
+      width: 11%;
+      vertical-align: bottom;
+      margin-right: 4%;
     }
   }
-  &__sub-heding:nth-of-type(even) {
-    content: "";
-    background-repeat: no-repeat;
-    background-size: 62px;
-    background-position: top left;
-    background-image: url('../../../public/img/az_hummer.png');
-    @include s.breakpoint(tablet) {
-      padding-left: 20%;
-    }
-  }
+  // &__sub-heding:nth-of-type(1) {
+  //   @include service-sub-heding;
+  //   background-image: url('../../../public/img/az_hummer.png');
+  // }
+  // &__sub-heding:nth-of-type(2) {
+  //   @include service-sub-heding;
+  //   background-image: url('../../../public/img/az_pench.png');
+  // }
+  // &__sub-heding:nth-of-type(3) {
+  //   @include service-sub-heding;
+  //   background-image: url('../../../public/img/az_driver_2.png');
+  // }
+  // &__sub-heding:nth-of-type(4) {
+  //   @include service-sub-heding;
+  //   background-image: url('../../../public/img/az_driver.png');
+  // }
 }

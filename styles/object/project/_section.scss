@@ -3,11 +3,17 @@
 @use "./../../foundation/system" as s;
 
 .p-section {
-  // padding: 0 0 140px;
-  padding: 0 0 calc(12.7% * var(--sp));
+  padding: 0 0 calc(10% * var(--sp));
   text-align: center;
   &:last-of-type {
     padding-bottom: 0px;
+  }
+  &--two {
+    padding: 0 0 calc(8% * var(--sp));
+    text-align: center;
+    &:last-of-type {
+      padding-bottom: 0px;
+    }
   }
   &__firstview{
     padding: 0 0;
@@ -20,26 +26,31 @@
     padding-bottom: calc(3.6% * var(--sp));
   }
   &__explanation {
-    padding: 0 0 0;
+    padding: 0 10% 0;
+    @include s.font-20;
+  }
+  &__explanation--two {
+    padding: 0 15% 0;
     @include s.font-20;
   }
   &__title {
-    padding: 0 9% calc(5% * var(--sp));
+    padding: 0 9% calc(3% * var(--sp));
+    @include s.font-38;
+  }
+  &__title--two {
+    padding: 5% 9% calc(3% * var(--sp));
     @include s.font-38;
   }
   &__text {
-    padding: 0 0 80px;
+    padding: 0 7% 80px;
     @include s.font-20;
   }
   &__sub {
-    width: 82%;
-    // padding-bottom: 26px;
+    width: 70%;
     padding-bottom: calc(2.3% * var(--sp));
-    // margin: 0 9% 52px;
-    margin: 0 9% calc(4.2% * var(--sp));
+    margin: 0 auto calc(4.2% * var(--sp));
     border-bottom: 1px solid s.$c-base;
     font-weight: normal;
-    // line-height: 1;
     @include s.font-40;
   }
   &__sub-lists {
@@ -58,7 +69,10 @@
     }
   }
   &__graph {
-    padding: 0 15% calc(5% * var(--sp));
+    padding: 0 25% calc(5% * var(--sp));
+    img {
+      width: 100%;
+    }
   }
   &__load-link {
     // padding-top: 40px;

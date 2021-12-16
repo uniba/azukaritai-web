@@ -1,8 +1,7 @@
 @use "./../../foundation/system" as s;
 
 .p-contact-info {
-  // padding: 150px 0 200px;
-  padding: calc(18% * var(--sp)) 0 calc(13% * var(--sp));
+  padding: calc(11% * var(--sp)) 0 calc(7% * var(--sp));
   text-align: center;
   &__title {
     @include s.font-38;
@@ -12,7 +11,6 @@
     @include s.font-20;
   }
   &__load-link {
-    // padding-top: 40px;
     padding-top: calc(3.6% * var(--sp));
     a {
       @include s.font-20;
