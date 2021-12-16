@@ -1,0 +1,44 @@
+/* base
+--------------------------- */
+@use "./system" as s;
+
+* {
+  margin: 0;
+}
+
+html {
+  line-height: 1.6;
+  height: 100%;
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  font-size: 20px;
+}
+
+body {
+  color: s.$c-base;
+  background-color: s.$c-body;
+  font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+
+}
+body {
+	overflow-x: hidden;
+}
+
+img,
+video,
+object {
+  max-width: 100%;
+  height: auto;
+  border: none;
+}
+
+a {
+  color: s.$c-base;
+  text-decoration: none;
+  position: relative;
+}
+a,
+label,
+input {
+  transition: s.$transition-base;
+}

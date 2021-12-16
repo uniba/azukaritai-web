@@ -1,0 +1,127 @@
+/* system
+--------------------------- */
+
+// responsive system
+// ---------------------
+@mixin breakpoint($point) {
+  @if $point == tablet {
+    @media (max-width: 767px) {
+      @content;
+    }
+  }
+  @if $point == pc {
+    @media (min-width: 768px) {
+      @content;
+    }
+  }
+
+  //option
+  @if $point == about-control {
+    @media (max-width: 1100px) {
+      @content;
+    }
+  }
+}
+
+@include breakpoint(tablet) {
+  :root {
+    --sp: 3.16;
+  }
+}
+@include breakpoint(pc) {
+  :root {
+    --sp: 1.33;
+  }
+}
+
+//option
+@include breakpoint(about-control) {
+  :root {
+    --sp: 3.16;
+  }
+}
+
+.pc-only {
+  display: none;
+}
+@include breakpoint(pc) {
+  .pc-only {
+    display: inline-block;
+  }
+}
+
+// color system
+// ---------------------
+$c-base: #000;
+$c-base-gray: #E6E6E6;
+$c-base-right: #4D4D4D;
+$c-body: #fff;
+
+
+// font-size system
+// ---------------------
+@mixin font-base-text {
+  font-size: 0.9rem;
+  @include breakpoint(tablet) {
+    font-size: calc(20px + ((1vw - 6.4px)*3.571));
+  }
+}
+@mixin font-base-title-01 {
+  font-size: 1.4rem;
+  @include breakpoint(tablet) {
+    font-size: calc(27px + ((1vw - 6.4px)*3.571));
+  }
+}
+@mixin font-base-title-02 {
+  font-size: 1.5rem;
+  @include breakpoint(tablet) {
+    font-size: calc(38px + ((1vw - 6.4px)*3.571));
+  }
+}
+@mixin font-base-title-03 {
+  font-size: 1.3rem;
+  @include breakpoint(tablet) {
+    font-size: calc(40px + ((1vw - 6.4px)*3.571));
+  }
+}
+@mixin font-main-heading {
+  font-size: 1.6rem;
+  @include breakpoint(tablet) {
+    font-size: calc(40px + ((1vw - 6.4px)*3.571));
+  }
+}
+//careers option
+@mixin font-careers-text {
+  font-size: 1rem;
+  @include breakpoint(tablet) {
+    font-size: calc(23px + ((1vw - 6.4px)*3.571));
+  }
+}
+@mixin font-careers-subtitle {
+  font-size: 1.2rem;
+  @include breakpoint(tablet) {
+    font-size: calc(27px + ((1vw - 6.4px)*3.571));
+  }
+}
+//about option
+@mixin font-about-text-control-01 {
+  font-size: 1.3rem;
+  @include breakpoint(about-control) {
+    font-size: calc(14px + ((1vw - 6.4px)*3.571));
+  }
+  @include breakpoint(tablet) {
+    font-size: calc(40px + ((1vw - 6.4px)*3.571));
+  }
+}
+@mixin font-about-text-control-02 {
+  font-size: 0.9rem;
+  @include breakpoint(about-control) {
+    font-size: calc(10px + ((1vw - 6.4px)*3.571));
+  }
+  @include breakpoint(tablet) {
+    font-size: calc(20px + ((1vw - 6.4px)*3.571));
+  }
+}
+
+$transition-base: all 0.4s;
+

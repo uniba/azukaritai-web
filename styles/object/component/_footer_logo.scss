@@ -1,0 +1,14 @@
+@use "./../../foundation/system" as s;
+
+.c-footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  background-color: s.$c-base;
+}
+
+.c-footer-logo img {
+  height: 52px;
+  cursor: pointer;
+}

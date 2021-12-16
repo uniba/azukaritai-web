@@ -1,0 +1,30 @@
+@use "./../../foundation/system" as s;
+
+nav.c-global-nav {
+  padding: calc(3% * var(--sp)) 15% calc(2% * var(--sp));
+  ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    @include s.breakpoint(tablet) {
+      justify-content: flex-start;
+      margin-right: 30px;
+    }
+  }
+  a {
+    text-decoration: none;
+    @include s.font-base-text;
+    font-weight: bold;
+    @include s.breakpoint(tablet) {
+      margin-right: 30px;
+      line-height: 2;
+    }
+    &:hover {
+      color: rgb(141, 141, 141);
+    }
+  }
+}

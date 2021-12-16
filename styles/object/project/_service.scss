@@ -1,0 +1,30 @@
+@use "./../../foundation/system" as s;
+
+@mixin service-sub-heding {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: 62px;
+  background-position: top left;
+  @include s.breakpoint(tablet) {
+    padding-left: 20%;
+  }
+}
+
+.p-service {
+  &__icon-one {
+    text-align: center;
+    padding-bottom: calc(8% * var(--sp));
+    img {
+      display: inline-block;
+      width: 15%;
+    }
+  }
+  &__sub-heding {
+    img {
+      display: inline-block;
+      width: 11%;
+      vertical-align: bottom;
+      margin-right: 4%;
+    }
+  }
+}
