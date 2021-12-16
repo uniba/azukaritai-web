@@ -36,29 +36,7 @@ a {
   color: s.$c-base;
   text-decoration: none;
   position: relative;
-  // &::after {
-  //   position: absolute;
-  //   bottom: -3px;
-  //   left: 50%;
-  //   content: "";
-  //   width: 0;
-  //   height: 1px;
-  //   background-color: s.$c-base;
-  //   transition: 0.2s;
-  //   transform: translateX(-50%);
-  // }
-  // &:hover {
-  //   text-decoration: none;
-  //   &:after {
-  //     width: 100%;
-  //   }
-  // }
 }
-// a:hover img {
-//   text-decoration: none;
-//   opacity: 0.8;
-//   transition: s.$transition-base;
-// }
 a,
 label,
 input {

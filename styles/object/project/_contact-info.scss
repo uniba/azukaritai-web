@@ -4,16 +4,16 @@
   padding: calc(11% * var(--sp)) 0 calc(7% * var(--sp));
   text-align: center;
   &__title {
-    @include s.font-38;
+    @include s.font-base-title-02;
     padding: 0 9% calc(4.8% * var(--sp));
   }
   &__text {
-    @include s.font-20;
+    @include s.font-base-text;
   }
   &__load-link {
     padding-top: calc(3.6% * var(--sp));
     a {
-      @include s.font-20;
+      @include s.font-base-text;
       font-weight: bold;
       text-decoration: underline;
     }

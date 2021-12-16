@@ -13,7 +13,7 @@ export default function About() {
       <section className="p-about">
         <div className="p-section">
           <h3 className="p-section__title--two">ABOUT US</h3>
-          <h2 className="p-section__main-heading">あなたのオンラインビジネスに伴走するエンジニアチーム、<br />準備できています。</h2>
+          <h2 className="p-section__main-heading">あなたのオンラインビジネスに伴走するエンジニアチーム、<br className="p-section__main-heading-tab" />準備できています。</h2>
           <p className="p-section__explanation">
             新しいビジネスやサービスの立ち上げ、立ち上げた後の運用において成長を加速させていく上で、
             優秀なエンジニアチームは必要不可欠です。

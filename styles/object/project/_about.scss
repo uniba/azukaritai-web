@@ -22,7 +22,7 @@
 @mixin about-mb-name {
   margin-top: auto;
   padding: 0 0 calc(2.7% * var(--sp)) 0;
-  @include s.font-39;
+  @include s.font-about-text-control-01;
   grid-row: 1 / 2;
   @include s.breakpoint(tablet) {
     padding-left: 0;
@@ -37,7 +37,7 @@
 @mixin about-mb-intro {
   margin-bottom: auto;
   grid-row: 2 / 3;
-  @include s.font-20;
+  @include s.font-about-text-control-02;
   @include s.breakpoint(tablet) {
     padding-left: 0;
     padding-right: 0;
@@ -56,7 +56,7 @@
     text-align: center;
   }
   &__mb-title {
-    @include s.font-28;
+    @include s.font-base-title-01;
     font-weight: normal;
   }
 
@@ -135,9 +135,8 @@
     }
   }
   &__careers-title {
-    // padding-bottom: 20px;
     padding-bottom: calc(1.8% * var(--sp));
-    @include s.font-39;
+    @include s.font-base-title-03;
     grid-row: 1 / 2;
     grid-column: 2 / 3;
     @include s.breakpoint(tablet) {
@@ -146,7 +145,7 @@
     }
   }
   &__careers-link {
-    @include s.font-39;
+    @include s.font-base-title-03;
     color: s.$c-base-right;
     grid-row: 2 / 3;
     grid-column: 2 / 3;

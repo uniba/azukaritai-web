@@ -17,7 +17,7 @@ export default function Home() {
           <figure className="p-section__firstview">
             <img src="img/azukaritai_main.png" alt="Azukaritai top image" />
           </figure>
-          <h2 className="p-section__main-heading">あなたのオンラインビジネスに伴走するエンジニアチーム、<br />準備できています。</h2>
+          <h2 className="p-section__main-heading">あなたのオンラインビジネスに伴走するエンジニアチーム、<br className="p-section__main-heading-tab" />準備できています。</h2>
           <p className="p-section__explanation">
             新しいビジネスやサービスの立ち上げ、立ち上げた後の運用において成長を加速させていく上で、
             優秀なエンジニアチームは必要不可欠です。

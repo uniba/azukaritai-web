@@ -6,6 +6,7 @@
   img {
     display: inline-block;
     width: 18%;
+    cursor: pointer;
     @include s.breakpoint(tablet) {
       width: 50%;
     }

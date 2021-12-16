@@ -26,18 +26,14 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <Link href="https://form.asana.com?k=ggLvwV5Jy4v6e9WhagMCjg&d=10976309821910" target="_blank" rel="noreferrer">
-            <a>
-              CONTACT
-            </a>
-          </Link>
+          <a href="https://form.asana.com?k=ggLvwV5Jy4v6e9WhagMCjg&d=10976309821910" target="_blank" rel="noopener noreferrer">
+            CONTACT
+          </a>
         </li>
         <li>
-          <Link href="https://note.com/azukaritai" target="_blank">
-            <a>
-              BLOG(note)
-            </a>
-          </Link>
+          <a href="https://note.com/azukaritai" target="_blank" rel="noopener noreferrer">
+            BLOG(note)
+          </a>
         </li>
       </ul>
     </nav>
