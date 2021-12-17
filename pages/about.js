@@ -55,6 +55,11 @@ export default function About() {
             <p className="p-about__mb-intro">人間のフレキシビリティを支える堅牢なプロダクト作りに貢献したいです。</p>
             <div className="p-about__mb-image"><img src="img/az_caz.png" /></div>
           </div>
+          <div className="p-about__mb-container--odd">
+            <div className="p-about__mb-image"><img src="img/az_daichi.jpg" /></div>
+            <p className="p-about__mb-name">佐藤 大地 /<span> Daichi Sato</span></p>
+            <p className="p-about__mb-intro">クライアントが直面する課題に取り組むために、システム運用の方からサポートさせていただきます。</p>
+          </div>
         </div>
         <div className="p-about__careers-info">
           {/* <div className="p-about__careers-image">
@@ -63,11 +68,9 @@ export default function About() {
           <h4 className="p-about__careers-title">
             Azukaritaiは新たなメンバーを募集しています。
           </h4>
-          <div className="p-about__careers-link">
+          <div className="p-section__load-link">
             <Link href="/careers">
-              <a>
-                採用情報を見る
-              </a>
+              採用情報を見る
             </Link>
           </div>
         </div>

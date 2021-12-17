@@ -61,65 +61,77 @@ $c-body: #fff;
 // font-size system
 // ---------------------
 @mixin font-base-text {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   @include breakpoint(tablet) {
-    font-size: calc(20px + ((1vw - 6.4px)*3.571));
+    font-size: calc(16px + ((1vw - 6.4px)*3.571));
+  }
+}
+@mixin font-global-nav {
+  font-size: 0.8rem;
+  @include breakpoint(tablet) {
+    font-size: calc(16px + ((1vw - 6.4px)*3.571));
   }
 }
 @mixin font-base-title-01 {
   font-size: 1.4rem;
   @include breakpoint(tablet) {
-    font-size: calc(27px + ((1vw - 6.4px)*3.571));
+    font-size: calc(28px + ((1vw - 6.4px)*3.571));
   }
 }
 @mixin font-base-title-02 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   @include breakpoint(tablet) {
-    font-size: calc(38px + ((1vw - 6.4px)*3.571));
+    font-size: calc(26px + ((1vw - 6.4px)*3.571));
   }
 }
 @mixin font-base-title-03 {
   font-size: 1.3rem;
   @include breakpoint(tablet) {
-    font-size: calc(40px + ((1vw - 6.4px)*3.571));
+    font-size: calc(26px + ((1vw - 6.4px)*3.571));
   }
 }
 @mixin font-main-heading {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   @include breakpoint(tablet) {
-    font-size: calc(40px + ((1vw - 6.4px)*3.571));
+    font-size: calc(28px + ((1vw - 6.4px)*3.571));
   }
 }
 //careers option
 @mixin font-careers-text {
   font-size: 1rem;
   @include breakpoint(tablet) {
-    font-size: calc(23px + ((1vw - 6.4px)*3.571));
+    font-size: calc(20px + ((1vw - 6.4px)*3.571));
+  }
+}
+@mixin font-careers-position {
+  font-size: 1.2rem;
+  @include breakpoint(tablet) {
+    font-size: calc(24px + ((1vw - 6.4px)*3.571));
   }
 }
 @mixin font-careers-subtitle {
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   @include breakpoint(tablet) {
-    font-size: calc(27px + ((1vw - 6.4px)*3.571));
+    font-size: calc(18px + ((1vw - 6.4px)*3.571));
   }
 }
 //about option
 @mixin font-about-text-control-01 {
   font-size: 1.3rem;
   @include breakpoint(about-control) {
-    font-size: calc(14px + ((1vw - 6.4px)*3.571));
+    font-size: calc(26px + ((1vw - 6.4px)*3.571));
   }
   @include breakpoint(tablet) {
-    font-size: calc(40px + ((1vw - 6.4px)*3.571));
+    font-size: calc(26px + ((1vw - 6.4px)*3.571));
   }
 }
 @mixin font-about-text-control-02 {
   font-size: 0.9rem;
   @include breakpoint(about-control) {
-    font-size: calc(10px + ((1vw - 6.4px)*3.571));
+    font-size: calc(18px + ((1vw - 6.4px)*3.571));
   }
   @include breakpoint(tablet) {
-    font-size: calc(20px + ((1vw - 6.4px)*3.571));
+    font-size: calc(18px + ((1vw - 6.4px)*3.571));
   }
 }
 

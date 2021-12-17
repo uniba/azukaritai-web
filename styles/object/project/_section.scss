@@ -3,7 +3,7 @@
 @use "./../../foundation/system" as s;
 
 .p-section {
-  padding: 0 0 calc(10% * var(--sp));
+  padding: 0 0 calc(8% * var(--sp));
   text-align: center;
   &:last-of-type {
     padding-bottom: 0px;
@@ -62,7 +62,7 @@
     list-style-type: none;
     li {
       line-height: 1.6;
-      @include s.font-base-text;
+      @include s.font-careers-text;
     }
   }
   &__sub-container {
