@@ -68,11 +68,9 @@ export default function About() {
           <h4 className="p-about__careers-title">
             Azukaritaiは新たなメンバーを募集しています。
           </h4>
-          <div className="p-about__careers-link">
+          <div className="p-section__load-link">
             <Link href="/careers">
-              <a>
-                採用情報を見る
-              </a>
+              採用情報を見る
             </Link>
           </div>
         </div>
