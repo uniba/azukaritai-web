@@ -56,7 +56,7 @@ export default function About() {
             <div className="p-about__mb-image"><img src="img/az_caz.png" /></div>
           </div>
           <div className="p-about__mb-container--odd">
-            <div className="p-about__mb-image"><img src="img/az_daichi.jpg" /></div>
+            <div className="p-about__mb-image"><img src="img/az_daichi.png" /></div>
             <p className="p-about__mb-name">佐藤 大地 /<span> Daichi Sato</span></p>
             <p className="p-about__mb-intro">クライアントが直面する課題に取り組むために、システム運用の方からサポートさせていただきます。</p>
           </div>
