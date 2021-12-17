@@ -1,7 +1,7 @@
 @use "./../../foundation/system" as s;
 
 nav.c-global-nav {
-  padding: calc(3% * var(--sp)) 15% calc(2% * var(--sp));
+  padding: calc(1.5% * var(--sp)) 15% calc(2% * var(--sp));
   ul {
     display: flex;
     justify-content: space-between;
@@ -17,7 +17,7 @@ nav.c-global-nav {
   }
   a {
     text-decoration: none;
-    @include s.font-base-text;
+    @include s.font-global-nav;
     font-weight: bold;
     @include s.breakpoint(tablet) {
       margin-right: 30px;

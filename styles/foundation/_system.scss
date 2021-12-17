@@ -61,9 +61,15 @@ $c-body: #fff;
 // font-size system
 // ---------------------
 @mixin font-base-text {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   @include breakpoint(tablet) {
     font-size: calc(20px + ((1vw - 6.4px)*3.571));
+  }
+}
+@mixin font-global-nav {
+  font-size: 0.8rem;
+  @include breakpoint(tablet) {
+    font-size: calc(16px + ((1vw - 6.4px)*3.571));
   }
 }
 @mixin font-base-title-01 {
@@ -73,7 +79,7 @@ $c-body: #fff;
   }
 }
 @mixin font-base-title-02 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   @include breakpoint(tablet) {
     font-size: calc(38px + ((1vw - 6.4px)*3.571));
   }
@@ -85,7 +91,7 @@ $c-body: #fff;
   }
 }
 @mixin font-main-heading {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   @include breakpoint(tablet) {
     font-size: calc(40px + ((1vw - 6.4px)*3.571));
   }
@@ -97,8 +103,14 @@ $c-body: #fff;
     font-size: calc(23px + ((1vw - 6.4px)*3.571));
   }
 }
-@mixin font-careers-subtitle {
+@mixin font-careers-position {
   font-size: 1.2rem;
+  @include breakpoint(tablet) {
+    font-size: calc(27px + ((1vw - 6.4px)*3.571));
+  }
+}
+@mixin font-careers-subtitle {
+  font-size: 0.9rem;
   @include breakpoint(tablet) {
     font-size: calc(27px + ((1vw - 6.4px)*3.571));
   }

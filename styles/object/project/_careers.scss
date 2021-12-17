@@ -46,11 +46,12 @@
   }
   &__position {
     margin-bottom: calc(2.7% * var(--sp));
-    @include s.font-careers-subtitle;
+    @include s.font-careers-position;
     font-weight: bold;
   }
   &__subtitle {
-    @include s.font-careers-text;
+    margin-bottom: calc(0.5% * var(--sp));
+    @include s.font-careers-subtitle;
     font-weight: bold
   }
   ul {
@@ -58,7 +59,7 @@
     padding-inline-start: 0px;
     list-style-type: none;
     li {
-      @include s.font-careers-text;
+      @include s.font-base-text;
     }
   }
 }

@@ -15,7 +15,7 @@ export default function Careers() {
         <div className="p-section">
           <h3 className="p-section__title--two">CAREERS</h3>
           <p className="p-section__explanation">
-            Azukaritaiでは、一緒にクライアントのプロダクトを育てていくメンバーを常時募集しています。
+            Azukaritaiでは、一緒にクライアントのプロダクトを育てていくメンバーを常時募集しています。<br />
             興味を持っていただける方は、お気軽にご連絡ください。
           </p>
         </div>
