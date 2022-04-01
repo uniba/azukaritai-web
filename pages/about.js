@@ -60,7 +60,7 @@ export default function About() {
             <p className="p-about__mb-name">佐藤 大地 /<span> Daichi Sato/</span><span>（卒業）</span></p>
             <p className="p-about__mb-intro">クライアントが直面する課題に取り組むために、システム運用の方からサポートさせていただきます。</p>
           </div>
-          <div className="p-about__mb-container--odd">
+          <div className="p-about__mb-container--even">
             <div className="p-about__mb-image"><img src="img/az_andrii.png" /></div>
             <p className="p-about__mb-name">Platonov Andrii </p>
             <p className="p-about__mb-intro"></p>
