@@ -62,7 +62,7 @@ export default function About() {
           </div>
           <div className="p-about__mb-container--even">
             <div className="p-about__mb-image"><img src="img/az_andrii.png" /></div>
-            <p className="p-about__mb-name">Platonov Andrii </p>
+            <p className="p-about__mb-name"><span>Platonov Andrii</span></p>
             <p className="p-about__mb-intro"></p>
           </div>
         </div>
