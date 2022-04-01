@@ -32,3 +32,6 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# GA
+NEXT_PUBLIC_GOOGLE_ANALYTICS=<UA-221704668-1>
