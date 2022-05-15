@@ -19,6 +19,13 @@ function Navbar() {
           </Link>
         </li>
         <li>
+          <Link href="/works">
+            <a>
+              WORKS
+            </a>
+          </Link>
+        </li>
+        <li>
           <Link href="/careers">
             <a>
               CAREERS
