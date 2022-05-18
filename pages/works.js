@@ -18,7 +18,7 @@ export default function Works() {
           <div className="p-about__mb-container--odd">
             <div className="p-about__mb-image"><img src="img/shinkenchiku-works.png" /></div>
             <p className="p-about__mb-name">新建築 WEBサービス</p>
-            <p className="p-about__mb-intro">株式会社新建築社が運用する<a href="https://id.shinkenchiku.online/">『新建築ID』</a><a href="https://compe.shinkenchiku.online/">『新建築コンペ』</a><a href="https://shinkenchiku.online/">『新建築オンライン』</a>。株式会社新建築データが運用する<a href="https://data.shinkenchiku.online/">『新建築データ』</a>。これらのサービスの運用と改修業務に取り組んでいます。新規開発を得意とする<a href="https://z-1.works/">Z1</a>チームと連携し、開発と運用の両面からクライアントのビジネスをサポートしています。</p>
+            <p className="p-about__mb-intro">株式会社新建築社が運用する<a href="https://id.shinkenchiku.online/" target="_blank">『新建築ID』</a><a href="https://compe.shinkenchiku.online/" target="_blank">『新建築コンペ』</a><a href="https://shinkenchiku.online/" target="_blank">『新建築オンライン』</a>。株式会社新建築データが運用する<a href="https://data.shinkenchiku.online/" target="_blank">『新建築データ』</a>。これらのサービスの運用と改修業務に取り組んでいます。新規開発を得意とする<a href="https://z-1.works/" target="_blank">Z1</a>チームと連携し、開発と運用の両面からクライアントのビジネスをサポートしています。</p>
           </div>
         </div>
         <div className="p-about__careers-info">
@@ -29,9 +29,9 @@ export default function Works() {
             案件のご相談はこちらから
           </h4>
           <div className="p-section__load-link">
-            <Link href="/careers">
+            <a href="https://form.asana.com?k=ggLvwV5Jy4v6e9WhagMCjg&d=10976309821910" target="_blank" rel="noopener noreferrer">
               CONTACT
-            </Link>
+            </a>
           </div>
         </div>
       </section>
