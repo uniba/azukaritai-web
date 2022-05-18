@@ -18,7 +18,7 @@ export default function Works() {
           <div className="p-about__mb-container--odd">
             <div className="p-about__mb-image"><img src="img/az_jun.png" /></div>
             <p className="p-about__mb-name">新建築 WEBサービス</p>
-            <p className="p-about__mb-intro">新建築社が提供する、新建築データ、新建築オンライン、新建築コンペ、新建築ID各サービスの運用と改修業務に取り組んでいます。新規開発を得意とするZ1と連携し、開発と運用の両面からクライアントのビジネスをサポートしています。</p>
+            <p className="p-about__mb-intro">株式会社新建築社が運用する<a href="https://id.shinkenchiku.online/">『新建築ID』</a><a href="https://compe.shinkenchiku.online/">『新建築コンペ』</a><a href="https://shinkenchiku.online/">『新建築オンライン』</a>。株式会社新建築データが運用する<a href="https://data.shinkenchiku.online/">『新建築データ』</a>。これらのサービスの運用と改修業務に取り組んでいます。新規開発を得意とする<a href="https://z-1.works/">Z1</a>チームと連携し、開発と運用の両面からクライアントのビジネスをサポートしています。</p>
           </div>
         </div>
         <div className="p-about__careers-info">
