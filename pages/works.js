@@ -26,13 +26,8 @@ export default function Works() {
             <img src="img/az_minirobot.png"/>
           </div> */}
           <h4 className="p-about__careers-title">
-            案件のご相談はこちらから
+            案件のご相談は CONTACT からお願いします
           </h4>
-          <div className="p-section__load-link">
-            <a href="https://form.asana.com?k=ggLvwV5Jy4v6e9WhagMCjg&d=10976309821910" target="_blank" rel="noopener noreferrer">
-              CONTACT
-            </a>
-          </div>
         </div>
       </section>
     </>
