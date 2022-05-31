@@ -33,7 +33,7 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <a href="https://form.asana.com?k=ggLvwV5Jy4v6e9WhagMCjg&d=10976309821910" target="_blank" rel="noopener noreferrer">
+          <a href="https://forms.gle/zceqossRX6NnwY2X8" target="_blank" rel="noopener noreferrer">
             CONTACT
           </a>
         </li>
