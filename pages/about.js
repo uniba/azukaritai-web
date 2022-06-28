@@ -37,21 +37,21 @@ export default function About() {
           <h4 className="p-about__mb-title">チームメンバー</h4>
           <div className="p-about__mb-container--odd">
             <div className="p-about__mb-image"><img src="img/az_jun.png" /></div>
-            <p className="p-about__mb-name">小松 純 /<span> Jun Komatsu</span></p>
+            <p className="p-about__mb-name"><span> Jun Komatsu</span></p>
             <p className="p-about__mb-intro">さまざまなサービスの成長に貢献していけるよう、チームを盛り上げていきたいと思います。よろしくお願いします。</p>
           </div>
           <div className="p-about__mb-container--even">
-            <p className="p-about__mb-name">谷藤 圭一 /<span> Keiichi Tanifuji</span></p>
+            <p className="p-about__mb-name"><span> Keiichi Tanifuji</span></p>
             <p className="p-about__mb-intro">「半歩先の理解」をモットーに、QA領域のサポートを中心に活動していきます。</p>
             <div className="p-about__mb-image"><img src="img/az_keiichi.png" /></div>
           </div>
           <div className="p-about__mb-container--odd">
             <div className="p-about__mb-image"><img src="img/az_satoshi.png" /></div>
-            <p className="p-about__mb-name">望月 聡 /<span> Satoshi Mochizuki</span></p>
+            <p className="p-about__mb-name"><span> Satoshi Mochizuki</span></p>
             <p className="p-about__mb-intro">お客様と連携して常にアップデートし続けたいです。</p>
           </div>
           <div className="p-about__mb-container--even">
-            <p className="p-about__mb-name">村穂 紀成 /<span> Cazunari Muraho</span></p>
+            <p className="p-about__mb-name"><span> Cazunari Muraho</span></p>
             <p className="p-about__mb-intro">人間のフレキシビリティを支える堅牢なプロダクト作りに貢献したいです。</p>
             <div className="p-about__mb-image"><img src="img/az_caz.png" /></div>
           </div>
@@ -65,6 +65,16 @@ export default function About() {
           <div className="p-about__mb-container--odd">
             <div className="p-about__mb-image"><img src="img/az_andrii.png" /></div>
             <p className="p-about__mb-name"><span>Platonov Andrii</span></p>
+            <p className="p-about__mb-intro">準備中</p>
+          </div>
+          <div className="p-about__mb-container--even">
+            <div className="p-about__mb-image"><img src="img/az_serhii.png" /></div>
+            <p className="p-about__mb-name"><span>Montashevych Serhii</span></p>
+            <p className="p-about__mb-intro">準備中</p>
+          </div>
+          <div className="p-about__mb-container--odd">
+            <div className="p-about__mb-image"><img src="img/az_member_settingup.png" /></div>
+            <p className="p-about__mb-name"><span>Jun Shirai</span></p>
             <p className="p-about__mb-intro">準備中</p>
           </div>
         </div>
