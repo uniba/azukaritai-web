@@ -65,12 +65,12 @@ export default function About() {
           <div className="p-about__mb-container--odd">
             <div className="p-about__mb-image"><img src="img/az_andrii.png" /></div>
             <p className="p-about__mb-name"><span>Platonov Andrii</span></p>
-            <p className="p-about__mb-intro">準備中</p>
+            <p className="p-about__mb-intro">I want to hone my understanding of the user's pain and search for ways to solve it.</p>
           </div>
           <div className="p-about__mb-container--even">
             <div className="p-about__mb-image"><img src="img/az_serhii.png" /></div>
             <p className="p-about__mb-name"><span>Montashevych Serhii</span></p>
-            <p className="p-about__mb-intro">準備中</p>
+            <p className="p-about__mb-intro">I want to create cool applications, help people automatize processes, work with great people, write perfect code without bugs, and, of course, worldwide domination😁.</p>
           </div>
           <div className="p-about__mb-container--odd">
             <div className="p-about__mb-image"><img src="img/az_member_settingup.png" /></div>
