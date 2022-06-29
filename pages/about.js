@@ -70,7 +70,7 @@ export default function About() {
           <div className="p-about__mb-container--even">
             <div className="p-about__mb-image"><img src="img/az_serhii.png" /></div>
             <p className="p-about__mb-name"><span>Montashevych Serhii</span></p>
-            <p className="p-about__mb-intro">I want to create cool applications, help people automatize processes, work with great people, write perfect code without bugs, and, of course, worldwide domination😁.</p>
+            <p className="p-about__mb-intro">I want to create cool applications, help people automatize processes, work with great people, write perfect code without bugs, and, of course, worldwide domination.</p>
           </div>
           <div className="p-about__mb-container--odd">
             <div className="p-about__mb-image"><img src="img/az_member_settingup.png" /></div>
