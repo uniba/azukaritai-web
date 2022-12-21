@@ -10,6 +10,13 @@ export default function Home() {
         <title>Azukaritai</title>
         <meta name="viewport" content="width=device-width" />
         <link rel="icon" href="/img/azukaritai_favicon.png" />
+        <meta name="description" content="新しいビジネスやサービスの立ち上げ、立ち上げた後の運用において成長を加速させていく上で、 優秀なエンジニアチームは必要不可欠です。 私たち Azukaritai は、内製のエンジニアチームのように、御社のビジネスのことを一緒に考えながら成長を目指す、エンジニアチームを、ニーズに合わせて作り上げ提供するサービスを提供します。" />
+        <meta property="og:url" content="https://azukaritai.com" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Azukaritai" />
+        <meta property="og:description" content="新しいビジネスやサービスの立ち上げ、立ち上げた後の運用において成長を加速させていく上で、 優秀なエンジニアチームは必要不可欠です。 私たち Azukaritai は、内製のエンジニアチームのように、御社のビジネスのことを一緒に考えながら成長を目指す、エンジニアチームを、ニーズに合わせて作り上げ提供するサービスを提供します。" />
+        <meta property="og:site_name" content="azukaritai.com" />
+        <meta property="og:image" content="https://www.azukaritai.com/img/azukaritai_main.png" />
       </Head>
 
       <section>
